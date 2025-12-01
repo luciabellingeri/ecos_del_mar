@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecos del Mar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"><a class="nav-link active" href="#inicio">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#historia">HISTORIA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proceso">PROCESO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#equipo">EQUIPO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="inicio"
+        class="position-relative overflow-hidden d-flex justify-content-center align-items-center text-center"
+        style="height: 100vh;">
+
+        <video autoplay muted loop playsinline class="position-absolute w-100 h-100 object-fit-cover"
+            style="top: 0; left: 0;">
+            <source src="img/videoFondo.mp4" type="video/mp4">
+        </video>
+
+        <div class="container position-relative d-flex flex-column justify-content-center align-items-center"
+            style="z-index: 2;">
+
+            <div class="text-center">
+                <img src="img/logo.png" alt="" width="350" height="100" class="img-fluid mb-4">
+            </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-light shadow-lg" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Jugar
+                </button>
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="exampleModal">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <iframe src="p5/index.html" frameborder="0" width="644" height="484"></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="p-3 mb-2 section-green">
+        <div id="historia" class="container pt-5 pb-5">
+            <p class="fs-1">Historia</p>
+
+            <p class="fs-6">En una noche cerrada y silenciosa, <strong>el barco avanza por un mar tan oscuro que parece no tener
+                fondo.</strong> Todo ocurre con normalidad hasta que una melodía extraña se filtra entre las olas. Al principio
+                suena lejana, casi inocente, pero pronto se vuelve imposible de ignorar. La tripulación empieza a
+                moverse de manera inquietante, atrapada por un trance que no entendés. <strong>Vos, a diferencia del resto,
+                sentís que esa voz no trae belleza, sino peligro.</strong> La música se hace más intensa, más cercana, como si
+                alguien (o algo) te llamara desde abajo del agua. Y entonces lo entendés: no es el viento. No es un
+                espejismo. Hay una presencia oculta bajo la superficie, un ser antiguo cuya canción puede atraer,
+                engañar o destruir.
+            <p class="fs-6"> Para descubrir qué está pasando vas a tener que decidir: <strong>¿resistir el canto o escucharlo?
+                ¿enfrentar lo desconocido o saltar directo hacia él?</strong> Cada elección que tomes te llevará por un camino
+                diferente y marcará el destino del barco, de la tripulación y el tuyo. La pregunta no es solo qué vas a
+                hacer. La pregunta es quién vas a ser cuando la voz del mar empiece a apoderarse de vos.</p>
+            </p>
+            <p class="fs-6">Al final, lo único seguro es que <strong>esa noche cambiará para siempre el rumbo del barco.</strong> La
+                melodía sigue ahí, esperando, y cada decisión que tomes puede acercarte a la verdad o ponerte en más
+                peligro. Si querés descubrir qué hay detrás de ese canto y a dónde te lleva cada elección… <strong>entonces es
+                momento de adentrarte en la aventura.</strong> </p>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 pt-5">
+                    <div class="card card-dark">
+                        <img src="img/img1.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Adentrate en la aventura.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 pt-5">
+                    <div class="card card-dark">
+                        <img src="img/img10.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Descubre los secretos del mar...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 pt-5">
+                    <div class="card card-dark">
+                        <img src="img/img12.png" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Elije tu propia historia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container pt-5 pb-5">
+        <div id="proceso" class="row g-4 flex-column flex-lg-row">
+
+            <p class="fs-1">Proceso</p>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-7">
+                <div id="carouselExampleCaptions" class="carousel slide">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="img/diagrama.png" class="d-block w-100">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/prueba.png" class="d-block w-100">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/problema.png" class="d-block w-100">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/personajes.png" class="d-block w-100">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-5">
+
+                <div class="border p-3 rounded">
+                    <p class="fs-6"> Este proyecto lo hicimos para la materia <strong>Programación para Medios Interactivos.</strong>
+                        Elegimos trabajar con sirenas desde un lado más oscuro y mitológico. Empezamos armando el
+                        <strong>diagrama de flujo con trece pantallas y tres finales</strong>, lo que fue clave para entender cómo se
+                        conectaban las decisiones.</p>
+                    <p class="fs-6"> Después <strong>programamos todo en p5.js usando estados, condicionales y arrays</strong> para
+                        manejar las pantallas y las elecciones del jugador. Cada decisión afectaba el recorrido y cómo
+                        organizar bien la lógica evitaba errores. </p>
+                    <p class="fs-6"> Las imágenes las generamos con Gemini y las retocamos en Illustrator y Photoshop
+                        para mantener un estilo coherente. </p>
+                    <p class="fs-6"> <strong>Nos gustó trabajar en equipo, combinando diseño, IA y programación.</strong> </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="p-3 mb-2 section-green">
+        <div id="equipo" class="container pt-5 pb-5 text-center">
+            <p class="fs-1">Equipo</p>
+            <p class="fs-5">
+                <em>Somos Lu y Mara, estudiantes de Diseño Multimedial, y entre las dos armamos toda esta aventura: desde la
+                historia y las imágenes hasta la programación en p5.js (incluyendo esta página web). Nos repartimos
+                tareas, probamos cosas y al final logramos que todo funcione.</em>
+            </p>
+
+            <div class="row justify-content-evenly">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-4 pt-5" data-bs-theme="light">
+                    <div class="card">
+                        <img src="img/lu.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Lucía Bellingeri</strong></h4>
+                            <p class="card-text">Estudiante de primer año de Diseño Multimedial. Trabajo haciendo
+                                encargos de diseño para Redes Sociales en Fiverr y también tatúo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-4 pt-5" data-bs-theme="light">
+                    <div class="card">
+                        <img src="img/mar.png" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Mara Velazco</strong></h4>
+                            <p class="card-text">Estudiante del primer año de Diseño Multimedial. Me gusta mirar
+                                peliculas, escuchar musica, y tengo un emprendimiento de remeras.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">Ecos del Mar | Comisión 3</span>
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+</body>
+
+</html>

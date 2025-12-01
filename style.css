@@ -1,0 +1,71 @@
+body {
+   background-color: #0b0b0b;
+   font-family: "Courier Prime", monospace;
+   color: rgb(213, 213, 213);
+}
+
+.navbar {
+   background-color: #000000;
+   justify-content: center;
+}
+
+.modal-content {
+   background-color: #0b0b0b;
+  padding-top: 50px;
+}
+
+
+
+#inicio {
+   background-image: url("img/background.png");
+   background-size: cover;
+   background-position: center;
+   height: 680px;
+}
+
+.card-dark {
+   background-color: #0b0b0b;
+   color: rgb(213, 213, 213);
+}
+
+
+.section-green {
+   background-color: rgb(0, 26, 23);
+}
+
+.section-title {
+   font-size: 2.5rem;
+}
+
+.carousel-item img {
+   border-radius: 5px;
+}
+
+#equipo .card {
+   background-color: #0b0b0b;
+   color: rgb(213, 213, 213);
+}
+
+footer {
+   background-color: #0b0b0b;
+}
+
+.card {
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+   transform: translateY(-8px);
+   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+   border-color: rgb(147, 255, 232);
+   color: #ffffff;
+}
+
+#equipo .card:hover {
+   color: #ffffff;
+}
+
+.navbar li a:hover{
+   color: rgb(147, 255, 232);
+}
+
